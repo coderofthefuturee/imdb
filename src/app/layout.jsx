@@ -1,3 +1,5 @@
+import Header from './components/header.jsx'
+import menuitem from './components/menuitem.jsx'
 import './globals.css'
 import { Inter } from 'next/font/google'
 
@@ -11,7 +13,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body>
+        < Header />
+        {/* {children} */}
+      </body>
     </html>
   )
 }
