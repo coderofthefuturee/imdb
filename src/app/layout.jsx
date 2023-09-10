@@ -3,6 +3,7 @@ import DarkModeSwitch from './components/DarkModeSwitch.jsx'
 import Header from './components/header.jsx'
 import MenuItem from './components/MenuItem.jsx' // Note the change here
 import './globals.css'
+import Navbar from './components/Navbar.jsx'
 
 export const metadata = {
   title: 'IMDB Clone',
@@ -20,9 +21,9 @@ export default function RootLayout({ children }) {
           <Header />
           {/* Navbar */}
 
-          {/* <Navbar />
+          <Navbar />
 
-          {/* SearchBox */}
+          {/* SearchBox
 
           {/* <SearchBox /> */} 
 

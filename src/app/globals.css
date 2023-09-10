@@ -10,6 +10,14 @@ html {
   scrollbar-width: none;
 }
 
+.bold-underline:hover {
+  text-decoration-line: underline;
+  text-decoration-thickness: 3px; /* Adjust thickness as needed */
+  text-decoration-skip-ink: none;
+  text-underline-offset: 0.3em; /* Adjust this value as needed to control the spacing */
+}
+
+
 
 /* DARK MODE
 
