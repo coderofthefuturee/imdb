@@ -1,5 +1,5 @@
 import Providers from './Providers.jsx'
-import DarkModeSwitch from './components/DarkModeSwitch.jsx'
+// import DarkModeSwitch from './components/DarkModeSwitch.jsx'
 import Header from './components/header.jsx'
 import MenuItem from './components/MenuItem.jsx' // Note the change here
 import './globals.css'
@@ -15,9 +15,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <Providers>
-          <div style={{ position: 'fixed', right: '170px', top: '20px' }}>
-            <DarkModeSwitch />
-          </div>
           <Header />
           {/* Navbar */}
 
