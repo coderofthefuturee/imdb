@@ -16,7 +16,7 @@ export default function Header() {
       <div className='w-full p-5'>
           <SearchBox />
       </div>
-      <div className="flex items-center space-x-7">
+      <div className="flex w-1/2 items-center space-x-7">
         <DarkModeSwitch />
         <Link href="/">
           <h2 className='text-2xl'>
