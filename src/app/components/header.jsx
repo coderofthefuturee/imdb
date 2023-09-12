@@ -13,7 +13,7 @@ export default function Header() {
         <MenuItem title="Home" address="/" Icon={AiFillHome} />
         <MenuItem title="About" address="/about" Icon={BsFillInfoCircleFill} />
       </div>
-      <div className='w-full p-5'>
+      <div className='w-full px-5'>
           <SearchBox />
       </div>
       <div className="flex w-1/2 items-center space-x-7">
