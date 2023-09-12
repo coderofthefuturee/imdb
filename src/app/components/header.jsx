@@ -4,6 +4,7 @@ import Link from "next/link";
 import { AiFillHome } from "react-icons/ai";
 import { BsFillInfoCircleFill } from "react-icons/bs";
 import DarkModeSwitch from './DarkModeSwitch';
+import SearchBox from './SearchBox';
 
 export default function Header() {
   return (
@@ -12,10 +13,11 @@ export default function Header() {
         <MenuItem title="Home" address="/" Icon={AiFillHome} />
         <MenuItem title="About" address="/about" Icon={BsFillInfoCircleFill} />
       </div>
-      <div className="flex items-center space-x-5">
-        <div className='space-x-4'>
-          <DarkModeSwitch />
-        </div>
+      <div className='w-full p-5'>
+          <SearchBox />
+      </div>
+      <div className="flex items-center space-x-7">
+        <DarkModeSwitch />
         <Link href="/">
           <h2 className='text-2xl'>
             <span className='font-bold text-black bg-amber-500 py-1 px-2 rounded-lg mr-1'>IMDb</span>

@@ -1,6 +1,6 @@
 export const dynamic = "force-dynamic"; // this is the fix
 const fetch = require('node-fetch');
-import Results from "./components/Results";
+import Results from './components/Results';
 const API_KEY = process.env.API_KEY;
 
 export default async function Home({ searchParams }) {
